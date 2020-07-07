@@ -1,0 +1,36 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+form,
+form label,
+form label input,
+form label select {
+    width: 300px;
+}
+
+.close-button {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.add-button {
+    margin-bottom: 10px;
+}
+
+.table-container {
+    height: 250px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
