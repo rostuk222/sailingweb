@@ -8,7 +8,7 @@ namespace SailingWeb.Data.Contexts
         public BoatDbContext(DbContextOptions options)
                     : base(options)
         {
-
+            this.Database.EnsureCreated();
         }
 
         public DbSet<Boat> Boats { get; set; }
